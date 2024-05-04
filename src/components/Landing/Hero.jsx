@@ -63,7 +63,7 @@ const Hero = () => {
           },
         }}
       >
-        Book Your Ride Now
+        Buy Your Ride Now
       </Fab>
       <img style={{ width: "90vw", marginTop: "5vh" }} src={vintage} alt="" />
       <Grid

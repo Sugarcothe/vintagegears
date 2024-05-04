@@ -24,7 +24,7 @@ const Footbar = () => {
           },
         }}
       >
-        Book Your Ride
+        Buy Your Ride
       </Typography>
     </Grid>
   );

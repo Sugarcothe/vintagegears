@@ -65,7 +65,7 @@ function Navbar() {
               textDecoration: "none",
             }}
           >
-            Vintage|Gears
+            VintGears
           </Typography>
 
           <Box
@@ -127,7 +127,7 @@ function Navbar() {
               textDecoration: "none",
             }}
           >
-            Vintage|Gears
+            VintGears
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
