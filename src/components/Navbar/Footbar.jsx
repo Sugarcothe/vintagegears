@@ -10,6 +10,9 @@ const Footbar = () => {
         textAlign: "center",
         padding: "2vh 0",
         position: "bottom",
+        bottom: 0, 
+        width: "100%",
+        zIndex: 999, 
       }}
     >
       <Typography

@@ -24,18 +24,20 @@ const Hero = () => {
           marginTop: "7vh",
           fontSize: "4vw",
           fontWeight: "700",
+          textAlign: "center",
           "@media (max-width:600px)": {
             fontSize: "5vh",
             marginTop: "unset",
           },
         }}
       >
-        Rent Your Dream Ride
+        Buy Your Dream Ride
       </Typography>
       <Typography
         sx={{
           margin: "1vh 0",
           fontSize: "1.3vw",
+          color: "rgb(16, 61, 56)",
           "@media (max-width:600px)": {
             margin: "1vh 0",
             fontSize: "4vw",
@@ -50,15 +52,15 @@ const Hero = () => {
           background: "rgb(16, 61, 56)",
           width: "15vw",
           borderRadius: "5vw",
+
           "@media (max-width:600px)": {
             width: "55vw",
             borderRadius: "5vh",
             fontSize: "3.5vw",
-            
           },
         }}
       >
-        Book Your Role Now
+        Book Your Ride Now
       </Fab>
       <img style={{ width: "90vw", marginTop: "5vh" }} src={vintage} alt="" />
       <Grid
