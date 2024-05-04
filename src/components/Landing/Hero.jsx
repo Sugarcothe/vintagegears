@@ -26,8 +26,9 @@ const Hero = () => {
           fontWeight: "700",
           textAlign: "center",
           "@media (max-width:600px)": {
-            fontSize: "5vh",
+            fontSize: "4vh",
             marginTop: "unset",
+            width: "80vw"
           },
         }}
       >
@@ -38,6 +39,7 @@ const Hero = () => {
           margin: "1vh 0",
           fontSize: "1.3vw",
           color: "rgb(16, 61, 56)",
+          textAlign: "center",
           "@media (max-width:600px)": {
             margin: "1vh 0",
             fontSize: "4vw",
@@ -57,6 +59,7 @@ const Hero = () => {
             width: "55vw",
             borderRadius: "5vh",
             fontSize: "3.5vw",
+            marginTop: "5vh"
           },
         }}
       >

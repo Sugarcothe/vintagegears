@@ -6,10 +6,17 @@ import Footbar from "../components/Navbar/Footbar";
 
 const Landing = () => {
   return (
-    <Grid sx={{ height: "100%" }}>
+    <Grid
+      sx={{
+        height: "100%",
+        "@media (max-width:600px)": {
+          height: "100vh",
+        },
+      }}
+    >
       <Navbar />
       <Hero />
-      <Footbar/>
+      <Footbar />
     </Grid>
   );
 };
