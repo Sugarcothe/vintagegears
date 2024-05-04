@@ -1,0 +1,28 @@
+* {
+  border: 0;
+  margin: 0;
+   font-family: "Roboto", sans-serif;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* --very-dark-color: rgb(16, 61, 56); */
+  --dark-color: rgb(22,56,42);
+  --main-color: rgb(16, 61, 56);
+  /* --main-color: #ad861a;
+  --light-color: #f2c76e; */
+  --very-light-color: #ededed;
+
+  /* Text desktop*/
+  --very-large: 10vw;
+  --large: 5vw;
+  --normal: 4vw;
+  --very-normal: 2.7vw;
+  --sub-header: 1.6vw;
+  --small: 1.3vw;
+  --very-small: 0.9vw;
+}
+
