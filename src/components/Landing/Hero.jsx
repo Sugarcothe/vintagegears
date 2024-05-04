@@ -28,7 +28,7 @@ const Hero = () => {
           "@media (max-width:600px)": {
             fontSize: "4vh",
             marginTop: "unset",
-            width: "80vw"
+            width: "80vw",
           },
         }}
       >
@@ -54,12 +54,15 @@ const Hero = () => {
           background: "rgb(16, 61, 56)",
           width: "15vw",
           borderRadius: "5vw",
-
+          transition: "0.5s all ease-in-out",
+          "&:hover, &:focus": {
+            color: "rgb(10, 40, 36)",
+          },
           "@media (max-width:600px)": {
             width: "55vw",
             borderRadius: "5vh",
             fontSize: "3.5vw",
-            marginTop: "5vh"
+            marginTop: "5vh",
           },
         }}
       >
